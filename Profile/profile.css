@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+}
+
+div.profile {
+    border: 3px solid #ccc;
+    background-color: #292c2f;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    font-family: oswald, sans-serif;
+}
+
+div.profile hr{
+    border: 1px solid white;
+}
+
+div.profile nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+}
+
+div.profile nav ul li:hover{
+    background-color: #777;
+    cursor: pointer;
+}
+
+div.profile nav ul li.profile-select{
+    color: #608bd2;
+	pointer-events: none;
+	opacity: 1;
+}
+
+div.profile article.profile-Bio div.profile-sub{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: 10px auto;
+    padding: 5px;
+    width: 60%;
+    min-width: 300px;
+}
+
+div.profile article.profile-Bio div.profile-sub div{
+    padding: 10px;
+}
+
+div.profile article.profile-Bio div.profile-sub div span{
+    float: right;
+}
+
+div.profile article.profile-Bio div.profile-sub hr{
+    color: black;
+    border: 1px solid black;
+}
+
+div.profile article.profile-Bio div.profile-hotel{
+    background: #ffffff;
+    color: black;
+    overflow-x: auto;
+}
+
+div.profile article.profile-Bio div.profile-hotel table{
+    width: 100%;
+}
+
+div.profile article.profile-Bio div.profile-hotel table th{
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+div.profile article.profile-Bio div.profile-hotel table td{
+    text-align: center;
+}
+
+div.profile article.profile-hidden{
+    display: none;
+}

@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#profile-2").click(function(){
+        $("#profile-1").removeClass("profile-select");
+        $("#profile-1-sub").addClass("profile-hidden");
+        $("#profile-2").addClass("profile-select");
+        $("#profile-2-sub").removeClass("profile-hidden");
+    });
+    $("#profile-1").click(function(){
+        $("#profile-2").removeClass("profile-select");
+        $("#profile-2-sub").addClass("profile-hidden");
+        $("#profile-1").addClass("profile-select");
+        $("#profile-1-sub").removeClass("profile-hidden");
+    });
+});

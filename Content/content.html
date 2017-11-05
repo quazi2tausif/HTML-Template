@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="content.css">
+    <title>Document</title>
+</head>
+
+<body>
+        <div class="content">
+          <div class="content-modal">
+            <div class="content-slides">
+              <img src="img/img_nature_wide.jpg" style="width:100%">
+            </div>
+        
+            <div class="content-slides">
+              <img src="img/img_fjords_wide.jpg" style="width:100%">
+            </div>
+        
+            <div class="content-slides">
+              <img src="img/img_mountains_wide.jpg" style="width:100%">
+            </div>
+            
+            <div class="content-slides">
+              <img src="img/img_lights_wide.jpg" style="width:100%">
+            </div>
+            <a class="content-prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="content-next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <div class="content-caption-container">
+              <p id="content-caption"></p>
+            </div>
+
+            <div class="content-column">
+              <img class="content-demo content-cursor" src="img/img_nature_wide.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+            </div>
+            <div class="content-column">
+              <img class="content-demo content-cursor" src="img/img_fjords_wide.jpg" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+            </div>
+            <div class="content-column">
+              <img class="content-demo content-cursor" src="img/img_mountains_wide.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+            </div>
+            <div class="content-column">
+              <img class="content-demo content-cursor" src="img/img_lights_wide.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+            </div>
+          </div>
+          <div></div>
+        </div>
+        <script src="content.js"></script>
+</body>
+
+</html>

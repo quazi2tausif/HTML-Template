@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="profile">
+        <h2>User Profile</h2>
+        <hr>
+        <nav class="profile-nav">
+            <ul>
+                <li class="profile-select" id="profile-1">Bio</li>
+                <li id="profile-2">Booking Status</li>
+            </ul>
+        </nav>
+        <hr>
+        <article class="profile-Bio" id="profile-1-sub">
+            <div class="profile-sub">
+                <div>
+                    Name:
+                    <span>Quazi Tausif Ahmed</span>
+                </div>
+                <hr>
+                <div>
+                    UserID :
+                    <span>quazi2tasuif</span>
+                </div>
+                <hr>
+                <div>
+                    Mailing Address:
+                    <span>quazi.tausif@rediffmail.com</span>
+                </div>
+                <hr>
+                <div>
+                    Change Mailing Address:
+                    <span>
+                        <input type="email" name="">
+                        <input type="button" value="Submit">
+                    </span>
+                </div>
+                <hr>
+                <div>
+                    Change Password:
+                    <span>
+                        <input type="password" name="">
+                        <input type="button" value="Submit">
+                    </span>
+                </div>
+            </div>
+        </article>
+        <article class="profile-Bio profile-hidden" id="profile-2-sub">
+            <div class="profile-hotel">
+                <form action="">
+                    <table>
+                        <tr>
+                            <th>RegistrationID</th>
+                            <th>Hotel Name</th>
+                            <th>From</th>
+                            <th>To</th>
+                            <th>Number of Person</th>
+                            <th>Number of Room</th>
+                            <th>Payment Status</th>
+                            <th>Cancel</th>
+                        </tr>
+                        <tr>
+                            <td>101010101</td>
+                            <td>RNP Hotel</td>
+                            <td>12/2/2012</td>
+                            <td>12/2/2012</td>
+                            <td>4</td>
+                            <td>2</td>
+                            <td>check</td>
+                            <td>cancel</td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </article>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="profile.js"></script>
+</body>
+
+</html>

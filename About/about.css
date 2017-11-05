@@ -1,0 +1,39 @@
+div.about {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.74);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: oswald, sans-serif;
+    color:  #ffffff;
+    background-color: #292c2f;
+}
+  
+div.about img{
+      width: 80%;
+      padding-top: 20px;
+      border-radius: 10px;
+}
+
+div.about p span{
+    color:  #5383d3;
+}
+  
+div.about div.about-contact-icons{
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+
+div.about div.about-contact-icons a{
+    display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+    margin-bottom: 5px;
+}
